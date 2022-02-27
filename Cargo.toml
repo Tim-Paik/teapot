@@ -1,5 +1,5 @@
 [package]
-authors = ["Tim Paik <timpaik@163.com>"]
+authors = ["Tim-Paik <timpaik@163.com>"]
 edition = "2021"
 license = "MIT"
 name = "teapot"
