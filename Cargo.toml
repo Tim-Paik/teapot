@@ -1,0 +1,13 @@
+[package]
+authors = ["Tim Paik <timpaik@163.com>"]
+edition = "2021"
+license = "MIT"
+name = "teapot"
+version = "0.1.0"
+
+[dependencies]
+actix-web = "4"
+env_logger = "0.9"
+
+[profile.release]
+lto = true
