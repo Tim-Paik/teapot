@@ -23,7 +23,7 @@ async fn main() -> std::io::Result<()> {
                 actix_web::HttpResponse::build(actix_web::http::StatusCode::IM_A_TEAPOT)
                     .insert_header(("server", "timpaik"))
                     .content_type("text/plain")
-                    .body("418. I’m a teapot.")
+                    .body("418. I'm a teapot.")
             }))
     })
     .bind(("0.0.0.0", 35470))?
